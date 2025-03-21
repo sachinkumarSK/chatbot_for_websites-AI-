@@ -22,6 +22,6 @@ def chat():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyD9LnbQJYP5AstTOSIfYCMV__d-AC6y5WQ"
+    os.environ["GOOGLE_API_KEY"] = "api key here i used gemini ai "
 
     app.run(debug=True)
