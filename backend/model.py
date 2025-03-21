@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 # Load API key
-genai.configure(api_key=os.getenv("AIzaSyD9LnbQJYP5AstTOSIfYCMV__d-AC6y5WQ"))
+genai.configure(api_key=os.getenv("apikeyhere(i used gemini ai)"))
 
 # Load text content from the file
 def load_text():
